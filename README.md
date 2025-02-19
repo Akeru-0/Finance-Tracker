@@ -46,6 +46,7 @@ cd finance-tracker
 start FinanceTracker.sln
 ```
 
+
 3. Restore NuGet packages
 ```bash
 dotnet restore
@@ -54,7 +55,7 @@ dotnet restore
 4. Build and run the application
 ```bash
 dotnet build
-dotnet run
+dotnet run --project FinanceTracker
 ```
 
 The application will create a SQLite database file (FinanceTracker.db) when first launched. It comes pre-seeded with sample transactions to demonstrate the app's features, including:
